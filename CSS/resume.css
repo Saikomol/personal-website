@@ -4,9 +4,8 @@
     margin: 0;/* important */ 
     padding: 0;
 }
-body{    
-    background-color:bisque;
-    height: 100%;
+h2,h1{
+    color: #1e7dc1;
 }
 /*footer{
     background-color: #9BD5FF;
@@ -16,6 +15,8 @@ body{
 }footer version 00*/
 main{
     min-height: 100vh;
+    background-color:bisque;
+    height: 100%;
     margin-bottom: -50px;
 }
 footer,.push{
@@ -24,7 +25,6 @@ footer,.push{
 header, footer{
     background: #9BD5FF;
     padding: 15px;
-
 }
 .navdiv{
     display: flex;
@@ -46,10 +46,6 @@ li a{
     font-weight: bold;
     margin-right: 25px;
 }
-.keybar{
-    margin: 0;
-}
-
 .grid-columns{
     display: grid;
     grid-template-columns: 450px 5px 2fr;
@@ -90,9 +86,6 @@ li a{
     border-radius: 10px;
     margin-bottom: 5px;
     letter-spacing: 1px;    
-}
-h2,h1{
-    color: #1e7dc1;
 }
 progress{
     background-color: #9BD5FF;
