@@ -48,24 +48,25 @@ li a{
 }
 .grid-columns{
     display: grid;
-    grid-template-columns: 450px 5px 2fr;
-    gap: 1px;
+    grid-template-columns: 1fr 5px 2fr;
+ 
+    margin: 0;
+    padding: 0;
 
 }
 .flowLine{
     background-color: #9BD5FF;
     width: 5px;
-    margin: 0;
+}
+.flowDocument,.flowMain{
+    background: #eddbbe;
+    padding-left: 30px;
 }
 .flowDocument{
-    background: #eddbbe;
-    padding-left: 50px;
-    width: 600px;
+    margin-right: 100px;
 }
 .flowMain{
-   padding-left: 20px;
-   margin-left: 75px;
-   background: #eddbbe;
+ margin-left: 100px;
 }
 .special-character{
     color: red;
