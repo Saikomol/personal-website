@@ -1,58 +1,12 @@
 
-*{  
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    margin: 0;/* important */ 
-    padding: 0;
-}
-h2,h1{
-    color: #1e7dc1;
-}
-/*footer{
-    background-color: #9BD5FF;
-    position: fixed;
-    bottom: 0;    
-    width: 100vw;
-}footer version 00*/
 main{
-    min-height: 100vh;
-    background-color:bisque;
-    height: 100%;
-    margin-bottom: -50px;
-}
-footer,.push{
-    height: 50px;
-}
-header, footer{
-    background: #9BD5FF;
-    padding: 15px;
-}
-.navdiv{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.logo a{
-    font-size: 35px;
-    font-weight: 600;
-    color: #1e7dc1;
-}
-li{
-    list-style: none;
-    display: inline-block;
-}
-li a{
-    color: #1e7dc1;
-    font-size: 18px;
-    font-weight: bold;
-    margin-right: 25px;
+    background-image: url(../images/abstract-3291293_1280.jpg);
 }
 .grid-columns{
     display: grid;
     grid-template-columns: 1fr 5px 2fr;
- 
-    margin: 0;
+     margin: 0;
     padding: 0;
-
 }
 .flowLine{
     background-color: #9BD5FF;
@@ -66,7 +20,7 @@ li a{
     margin-right: 100px;
 }
 .flowMain{
- margin-left: 100px;
+    margin-left: 100px;
 }
 .special-character{
     color: red;
@@ -101,11 +55,4 @@ progress::-webkit-progress-bar{
 progress::-webkit-progress-value{
     background-color: #9BD5FF;
     border-radius: 10px;
-}
-.container{
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/pxfuel.jpg);
-    background-position: center;
-    background-size: cover;
 }

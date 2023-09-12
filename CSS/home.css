@@ -1,0 +1,32 @@
+.gris-item{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+img{
+    width: 300px;
+    border-radius: 160px;
+    border: 3px solid #9BD5FF;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.grid-item-1{
+    margin: auto;
+    padding: 20px;
+}
+.grid-item-2 p{
+   text-align:center
+   
+}
