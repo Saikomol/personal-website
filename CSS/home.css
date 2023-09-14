@@ -1,6 +1,6 @@
 .gris-item{
-    width: 200px;
-    height: 200px;
+    width: 200vh;
+ 
     border: 3px solid black;
 }
 .grid-container{
@@ -8,8 +8,8 @@
     grid-template-columns: 2fr 1fr;
 }
 .myview{
-    width: 300px;
-    border-radius: 160px;
+    width: 90%;
+    border-radius: 160%;
     border: 3px solid #9BD5FF;
     display: block;
     margin-left: auto;
@@ -24,7 +24,10 @@ main{
 }
 .grid-item-1{
     margin: auto;
-    padding: 20px;
+    padding: auto;
+}
+.grid-item-1 p, h1{
+    margin:5%;
 }
 .grid-item-2 p{
    text-align:center

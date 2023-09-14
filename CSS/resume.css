@@ -1,6 +1,7 @@
 
 main{
     background-image: url(../images/abstract-3291293_1280.jpg);
+
 }
 .grid-columns{
     display: grid;
@@ -14,13 +15,13 @@ main{
 }
 .flowDocument,.flowMain{
     background: #eddbbe;
-    padding-left: 30px;
+    padding: 10%;
 }
 .flowDocument{
-    margin-right: 100px;
+    margin-right: 40px;
 }
 .flowMain{
-    margin-left: 100px;
+    margin-left: 40px;
 }
 .special-character{
     color: red;

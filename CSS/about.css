@@ -1,0 +1,22 @@
+main{
+    background-color: #eddbbe;
+    max-width: 70%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 12px 2px #b5ada2;
+}
+h1{
+    padding: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: white;
+    width: fit-content;
+}
+p{
+    padding: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: white;
+    width: fit-content;
+}
